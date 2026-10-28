@@ -26,8 +26,8 @@ func myAND(a, b int) int { return a & b }
 func myOR(a, b int) int  { return a | b }
 func myXOR(a, b int) int { return a ^ b }
 func myNOT(a int) int    { return ^a }
-func myLeftShift(a, n uint) int  { return a << n }
-func myRightShift(a, n uint) int { return a >> n }
+func myLeftShift(a, n int) int  { return a << n }
+func myRightShift(a, n int) int { return a >> n }
 
 func main() {
 	var a, b int
